@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/splash_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/top_layer"
+      >
+
+
+  </ImageView>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/app_title"
+      android:textSize="36sp"
+      android:textColor="@color/app_name"
+      android:layout_marginTop="52dp"
+      android:layout_marginLeft="16dp"
+      android:id="@+id/tv_apptitle"
+      >
+
+  </TextView>
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/exerciseeee"
+      android:layout_marginTop="52dp"
+      android:layout_marginLeft="247dp"
+      >
+
+  </ImageView>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/app_Subheading"
+      android:textSize="18dp"
+      android:textColor="@color/subheading_txt"
+      android:layout_marginTop="109dp"
+      android:layout_marginLeft="16dp"
+
+      >
+
+
+  </TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/txt_forgetpass"
+      android:textSize="18dp"
+      android:textColor="@color/primary_txt"
+      android:layout_marginTop="170dp"
+      android:layout_marginLeft="46dp"
+      >
+  </TextView>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+
+      android:layout_marginLeft="40dp"
+
+      android:layout_marginTop="252dp"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_email"
+        android:textSize="14dp"
+        android:paddingLeft="8dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/primary_txt"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="@string/hint_email">
+
+    </EditText>
+
+
+
+
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_above="@id/bottom_layer"
+      android:text="@string/txt_submit"
+      android:layout_gravity="center"
+      >
+
+  </Button>
+
+
+
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/bottom_layer"
+      android:src="@drawable/bottom_layer"
+      android:layout_alignParentBottom="true"
+      >
+
+  </ImageView>
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="15dp"
+      android:src="@drawable/line_layer"
+      android:layout_alignParentBottom="true"
+      >
+
+  </ImageView>
+
+</RelativeLayout>
