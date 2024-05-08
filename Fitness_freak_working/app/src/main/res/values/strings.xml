@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Self Freak</string>
+    <string name="app_title">Fitness Freak</string>
+    <string name="app_Subheading">Join now... Let fit yourself</string>
+    <string name="txt_logacc">Login Account</string>
+    <string name="txt_username">Username</string>
+    <string name="hint_txt">Enter your username</string>
+    <string name="txt_pass">Password</string>
+    <string name="hint_pass">********</string>
+    <string name="txt_forgetpass">Forget Password</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_no_accc">Don’t have an account? </string>
+    <string name="txt_create_acc">Create New Account</string>
+    <string name="txt_email">Email ID</string>
+
+    <string name="hint_email">Enter your email</string>
+
+    <string name="txt_confirmPassword">Confirm Password</string>
+
+    <string name="txt_terms">I agree with Terms and Conditions</string>
+
+    <string name="txt_signup">Sign Up</string>
+    <string name="txt_alreadyAccount">Already have an account? </string>
+
+    <string name="txt_changePassword">Change your password</string>
+
+    <string name="hint_registerEmail">Enter your register email Id</string>
+
+    <string name="txt_submit">Submit</string>
+
+    <string name="txt_dailyRoutine">Daily Routine</string>
+
+    <string name="txt_tip1">Wake up early in the morning.</string>
+
+    <string name="txt_tip2">Drink boil water in early morning.</string>
+
+    <string name="txt_tip4">Walk at least 15 minutes daily. </string>
+
+    <string name="txt_tip3">Eat at least one fruit which you like.</string>
+
+    <string name="txt_tip5">No Fast Food.</string>
+    <string name="txt_tip6">Don’t eat heavy food at late night.</string>
+
+    <string name="txt_save">Save</string>
+</resources>
